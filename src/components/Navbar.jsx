@@ -33,8 +33,8 @@ const Navbar = () => {
                 key={link.id}
                 className={`
                   ${
-                    active === link.title ? "text-white" : "text-secondary"
-                  } hover:text-white text-[18px] font-medium cursor-pointer
+                    active === link.title ? "text-[#EDB23C]" : "text-[#0E2F3E]"
+                  } hover:text-[#EDB23C] text-[18px] font-medium cursor-pointer
                 `}
                 onClick = {() => setActive(link.title)}
               >

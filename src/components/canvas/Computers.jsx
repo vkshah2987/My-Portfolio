@@ -2,6 +2,7 @@ import { Suspense, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
+import { person } from '../../assets';
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
@@ -40,7 +41,8 @@ const ComputersCanvas = () => {
   }, [])
 
   return (
-    <Canvas
+    <>
+    {!isMobile && <Canvas
       frameloop='demand'
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
@@ -57,7 +59,14 @@ const ComputersCanvas = () => {
         <Computers isMobile={isMobile} />
       </Suspense>
       <Preload all />
-    </Canvas>
+    </Canvas>}
+
+    {
+      isMobile && <div className='flex items-end justify-center h-[90vh]'>
+        <img className='w-[90vw]' src={person} alt="" />
+      </div>
+    }
+    </>
   )
 }
 

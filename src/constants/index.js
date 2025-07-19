@@ -164,7 +164,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Vishal proved me wrong.",
+      "I thought it was impossible to make a beautiful website, but Vishal proved me wrong.",
     name: "Shubham Kumar",
     designation: "Software Engineer",
     company: "Accenture",
@@ -192,7 +192,7 @@ const projects = [
   {
     name: "SecureVault",
     description:
-      "Healthcare portal for booking appointments and accessing medical records with secure role-based access, JWT authentication, and email reminders.",
+      "Secure password manager with encrypted storage, password generation, strength meter, and JWT-protected endpoints with frontend encryption.",
     tags: [
       {
         name: "angular",
@@ -225,7 +225,7 @@ const projects = [
   {
     name: "MediPortal [inProgress]",
     description:
-      "Secure password manager with encrypted storage, password generation, strength meter, and JWT-protected endpoints with frontend encryption.",
+      "Healthcare portal for booking appointments and accessing medical records with secure role-based access, JWT authentication, and email reminders.",
     tags: [
       {
         name: "react",

@@ -39,6 +39,7 @@ import dummyProfile from "./dummy-profile.png"
 import heroProfile from "./heroProfile.png"
 import shahLogo from "./shah-logo.png"
 import arrowUp from "./arrow-up.webp"
+import person from "./person.webp"
 
 export {
   logo,
@@ -77,5 +78,6 @@ export {
   tripguide,
   heroProfile,
   shahLogo,
-  arrowUp
+  arrowUp,
+  person
 };
