@@ -10,6 +10,15 @@ const Navbar = () => {
   const [active, setActive] = useState('')
   const [toggle, setToggle] = useState(false);
 
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Vishal_Kumar_Shah_Resume.pdf";
+    link.download = "Vishal_Kumar_Shah_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <nav
     className={`${styles.paddingX} w-full flex justify-center items-center !py-5 fixed top-0 z-20 primaryColor`}
@@ -44,7 +53,7 @@ const Navbar = () => {
           }
         </ul>
 
-        <button className="hidden sm:flex flex-row gap-10 bg-[#286F6C] !p-[12px] rounded-lg">Download Resume</button>
+        <button onClick={handleDownload} className="hidden sm:flex flex-row gap-10 bg-[#286F6C] !p-[12px] rounded-lg">Download Resume</button>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img

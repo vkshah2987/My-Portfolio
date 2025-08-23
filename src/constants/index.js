@@ -122,44 +122,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer Analyst",
+    title: "Software Development Analyst",
     company_name: "Accenture",
     icon: accenture,
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Present",
     points: [
-      "Developed and optimized full-stack application using JavaScript, Angular, and Microsoft SQL Server, improving API response time by 30% through query optimization.",
-      "Enhanced front-end performance by optimizing Angular components, reducing load time by 20% for improved user experience.",
-      "Managed version control and code collaboration using Git and GitHub, enforcing code review best practices that improve code quality and reduce production bugs by 20%.",
-      "Collaborated with cross-functional teams in an Agile environment, participating in sprint planning, stand-ups, and retrospectives, delivering 95% of assigned tasks within sprint timelines."
+      "Developed and delivered complete frontend features using Angular, including dynamic UI components, reactive forms, and secure API integrations.",
+      "Reduced backend latency by 30% through SQL query optimization and Node/SQL endpoint improvements.",
+      "Decreased page load time by 20% by modularizing Angular components, implementing lazy loading, and optimizing assets.",
+      "Automated 70% of regression testing workflows using Jasmine and Karma, accelerating QA cycles.",
+      "Resolved 90%+ of P1/P2 production issues within SLA by monitoring logs, triaging root causes, and deploying targeted hotfixes.",
+      "Integrated GenAI (Figma MCP Server) to automate design-to-code workflows, accelerating UI development.",
+      "Streamlined deployments with shell scripts and YAML configs, reducing manual rollout overhead.",
+      "Improved build reliability and team coordination by enforcing PR checks and documenting branching strategies."
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "Frontend Development Engineer",
     company_name: "Flutera Technologies",
     icon: flutera,
     iconBg: "#E6DEDD",
     date: "Mar 2023 - Sep 2023",
     points: [
-      "Improved 5+ dynamic web interfaces using React.js, increasing user engagement by 40%.",
-      "Integrated REST APIs and state management solutions, improving data handling efficiency.",
-      "Designed and implemented serverless architectures using AWS Lambda and DynamoDB."
+      "Increased user engagement by 40% by revamping 5+ React.js interfaces, improving navigation and data visibility.",
+      "Enhanced API response handling by 35% by integrating Axios interceptors and modular Redux logic.",
+      "Reduced server maintenance overhead by designing AWS Lambda serverless functions handling 1000+ daily events.",
+      "Improved modularity with reusable components, custom hooks, and TailwindCSS-based UI design.",
+      "Ensured secure data handling with input validation, payload encoding, and sanitization of external API responses."
     ],
   },
   {
     title: "Freelancer",
-    company_name: "",
+    company_name: "Independent",
     icon: transparent,
-    iconBg: "#fff",
+    iconBg: "#FFFFFF",
     date: "May 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining full-stack web applications using React.js and related technologies.",
+      "Collaborating with designers, product managers, and developers to deliver high-quality products.",
+      "Implementing responsive designs and ensuring cross-browser compatibility.",
+      "Conducting code reviews and providing constructive feedback to improve overall code quality."
     ],
   }
 ];
+
 
 const testimonials = [
   {
