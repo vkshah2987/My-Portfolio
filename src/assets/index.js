@@ -33,6 +33,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import secureVault from "./secure-vault.jpeg"
+import Netflix from "./NetflixClone.jpg"
 import dummy from "./dummy.jpg"
 import dummyProfile from "./dummy-profile.png"
 
@@ -72,6 +73,7 @@ export {
   tesla,
   carrent,
   secureVault,
+  Netflix,
   dummy,
   dummyProfile,
   jobit,

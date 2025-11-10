@@ -40,14 +40,13 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='!mt-4 text-[#0E2F3E] text-[17px] max-w-3xl leading-[30px]'
+        className='!mt-4 text-[#0E2F3E] text-[17px] max-w-5xl leading-[30px]'
       >
-        I'm a systems-focused Full Stack Developer with hands-on experience in automating deployments,
-        resolving production issues, and building CI/CD-ready applications across cloud-native and enterprise environments.
-        I've improved release cycles and application stability by streamlining backend logic in Python/Node.js and 
-        optimizing frontend performance in Angular and React. Skilled at diagnosing critical bugs under tight SLAs, 
-        I collaborate closely with QA, DevOps, and product teams to implement secure, scalable, and maintainable solutions. 
-        Let's work together to bring reliable and impactful ideas to life!
+        I'm a Software Engineer specializing in the MEAN / MERN stack with hands-on experience in building 
+        scalable web applications and integrating GenAI-driven workflows in enterprise environments. At Accenture, 
+        I've contributed to large-scale product improvements for Ecolab's Food Safety and Quality platform—enhancing 
+        dashboards, optimizing backend performance, and helping develop an internal RAG-based knowledge assistant 
+        using LangChain and GPT APIs.
       </motion.p>
 
       <div className='!mt-20 flex flex-wrap gap-10 justify-center'>

@@ -24,6 +24,7 @@ import {
   shopify,
   carrent,
   secureVault,
+  Netflix,
   dummy,
   dummyProfile,
   jobit,
@@ -52,7 +53,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -60,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "GenAI and AgenticAI",
     icon: creator,
   },
 ];
@@ -122,20 +123,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Development Analyst",
+    title: "Software Engineer",
     company_name: "Accenture",
     icon: accenture,
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Present",
     points: [
-      "Developed and delivered complete frontend features using Angular, including dynamic UI components, reactive forms, and secure API integrations.",
-      "Reduced backend latency by 30% through SQL query optimization and Node/SQL endpoint improvements.",
-      "Decreased page load time by 20% by modularizing Angular components, implementing lazy loading, and optimizing assets.",
-      "Automated 70% of regression testing workflows using Jasmine and Karma, accelerating QA cycles.",
-      "Resolved 90%+ of P1/P2 production issues within SLA by monitoring logs, triaging root causes, and deploying targeted hotfixes.",
-      "Integrated GenAI (Figma MCP Server) to automate design-to-code workflows, accelerating UI development.",
-      "Streamlined deployments with shell scripts and YAML configs, reducing manual rollout overhead.",
-      "Improved build reliability and team coordination by enforcing PR checks and documenting branching strategies."
+      "Improved Food Safety efficiency by ~28% by developing and enhancing Angular-based dashboards used by technicians and supervisors, enabling quicker decision-making on quality and compliance issues.",
+      "Reduced manual data validation efforts by ~35% by building Asp.Net APIs to automate backend workflows and integrate real-time updates between inspection data, service logs, and reporting modules.",
+      "Worked on incremental data model improvements by adjusting MongoDB schemas and optimizing aggregation pipelines, which helped reduce query load and improve record fetch response time.",
+      "Contributed to building an internal GenAI-powered knowledge assistant by integrating embeddings-based document retrieval and refining prompt workflows (LangChain + GPT API), ensuring responses were generated strictly from organizational SOPs, audit logs, and policy documents rather than external sources.",
+      "Collaborated in Agile sprints with Product Owners, QA, cross-functional engineering teams to refine features, perform code reviews, and deliver incremental product improvements aligned with client requirements."
     ],
   },
   {
@@ -227,12 +225,12 @@ const projects = [
       },
     ],
     image: secureVault,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vkshah2987/securevault",
   },
   {
-    name: "MediPortal [inProgress]",
+    name: "Netflix Clone",
     description:
-      "Healthcare portal for booking appointments and accessing medical records with secure role-based access, JWT authentication, and email reminders.",
+      "Full-stack Netflix clone with secure login, personalized watchlists, and dynamic content feeds — built using React, Node.js, Firebase Auth, and TMDB API.",
     tags: [
       {
         name: "react",
@@ -243,52 +241,48 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "express",
+        name: "Firebase",
         color: "red-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TMDB API",
         color: "green-text-gradient",
       },
       {
-        name: "bcrypt",
+        name: "redux",
         color: "orange-text-gradient",
       },
       {
         name: "jwt",
         color: "blue-text-gradient",
-      },
-      {
-        name: "cryptojs",
-        color: "purple-text-gradient",
-      },
+      }
     ],
-    image: dummy,
-    source_code_link: "https://github.com/",
+    image: Netflix,
+    source_code_link: "https://github.com/vkshah2987/Netflix-Clone",
   },
   {
-    name: "AlgoVisual [inProgress]",
+    name: "SMART WORKSPACE AI",
     description:
-      "Interactive algorithm visualizer for sorting and graph traversal algorithms, using React and Canvas API with a modular UI and smooth animations.",
+      "A RAG-based document assistant that allows users to ask questions and get context-specific answers from their own files, built using LangChain, FAISS, and OpenAI with a React UI.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "canvas api",
+        name: "node.js",
         color: "purple-text-gradient",
       },
       {
-        name: "html",
+        name: "LangChain",
         color: "orange-text-gradient",
       },
       {
-        name: "css",
+        name: "OpenAI",
         color: "pink-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Python",
         color: "yellow-text-gradient",
       },
     ],
