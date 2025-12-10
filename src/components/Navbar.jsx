@@ -53,7 +53,7 @@ const Navbar = () => {
           }
         </ul>
 
-        <button onClick={handleDownload} className="hidden sm:flex flex-row gap-10 bg-[#286F6C] !p-[12px] rounded-lg">Download Resume</button>
+        {/* <button onClick={handleDownload} className="hidden sm:flex flex-row gap-10 bg-[#286F6C] !p-[12px] rounded-lg">Download Resume</button> */}
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
